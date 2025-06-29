@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Dashboard",
+        "icon": "fas fa-home",
+        "route": "admin.dashboard"
+    },
+    {
+        "title": "Profile",
+        "icon": "fas fa-user",
+        "route": "profile.edit"
+    },
+    {
+        "title": "Product Manager",
+        "icon": "fas fa-box",
+        "children": [
+            {
+                "title": "Product List",
+                "route": "admin.products.index"
+            },
+            {
+                "title": "New Product",
+                "route": "admin.products.create"
+            },
+            {
+                "title": "Category Product",
+                "route": "admin.categories.index"
+            }
+        ]
+    },
+    {
+        "title": "User Manager",
+        "icon": "fas fa-users",
+        "children": [
+            {
+                "title": "User List",
+                "route": "admin.users.index"
+            },
+            {
+                "title": "New User",
+                "route": "admin.users.create"
+            }
+        ]
+    },
+    {
+        "title": "Logout",
+        "icon": "fas fa-sign-out-alt",
+        "route": "logout",
+        "logout": true
+    }
+]
