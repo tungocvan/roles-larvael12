@@ -1,8 +1,6 @@
-// Fonts
+// SASS module imports (phải đặt ở đầu)
+@use 'variables' as *;
+@use 'bootstrap/scss/bootstrap' as *;
+
+// Fonts - URL import không phải SASS module, nên phải để sau
 @import url('https://fonts.bunny.net/css?family=Nunito');
-
-// Variables
-@import 'variables';
-
-// Bootstrap
-@import 'bootstrap/scss/bootstrap';
