@@ -3,7 +3,7 @@ cp .env.example .env
 composer update 
 /var/www/ham-sh-mysql/create-databse.sh "db_roles"
 php artisan migrate
-php artisan db:seed --class=UserSeeder
+php artisan db:seed 
 php artisan optimize:clear
 npm i
 npm run build
